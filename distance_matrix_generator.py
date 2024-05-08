@@ -36,7 +36,7 @@ class MatrixGenerator:
             with open(wordlist,'r', encoding='ascii', errors='surrogateescape') as file:
                 for line in file:   
                     for word in line.split():
-                        if (word.isascii() and len(word) < self.max_password_length): #append only passwords that are not longer than 30 characters
+                        if (word.isascii() and len(word) <= self.max_password_length): #append only passwords that are not longer than 30 characters
                             unique_passwords.add(word)
             #store unique passwords in array self.passwords
             for password in unique_passwords:
