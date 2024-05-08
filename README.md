@@ -45,6 +45,7 @@ python3.9 RuleForge.py --wordlist <wordlist_file> --rulefile <rule_file> ( --hac
 ##### Required Arguments:
 
 `--wordlist <wordlist_file>`: Path to the wordlist file. This is the input wordlist for rule generation.
+
 `--rulefile <rule_file>`: Path to the output file where the generated rules will be saved.
 
 
