@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #Author: Lucia Sirova (xsirov01)
 
 import os
