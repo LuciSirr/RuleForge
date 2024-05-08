@@ -1,4 +1,4 @@
-#Author: Lucia Šírová (xsirov01)
+#Author: Lucia Sirova (xsirov01)
 
 import os
 import subprocess
@@ -389,7 +389,7 @@ class Test_rules:
                         
                         if (self.test_all):
                             print("Generating rules -Dominik Drdak/rule_generator")
-                            execution_time_drdak = self.execute_rule_generating_command(["python3.9", "rule_generator_drdak.py", "-f", os.path.join(self.directory_rules, rule_file), "--damping", "0.9", "--convergence_iter", "50"])
+                            execution_time_drdak = self.execute_rule_generating_command(["python3.9", "rule_generator.py", "-f", os.path.join(self.directory_rules, rule_file), "--damping", "0.9", "--convergence_iter", "50"])
                             #get most frequent rules from Dominik Drdak rule_generator ruleset
                             if (self.number_of_frequent_rules != None):
                                 self.get_frequent_rules_from_drdak(os.path.join(self.directory_rules, filename_no_ext) + ".out")
@@ -466,7 +466,7 @@ class Test_rules:
 
 
                                     #run hashcat with rules from rule_generator/Dominik Drdak
-                                    print("rule_genrator/Dominik Drdak:")
+                                    print("rule_generator/Dominik Drdak:")
                                     result = subprocess.run(["hashcat", "-a", "0", "-m", "99999", os.path.join(self.directory_passwords, target_dictionary), os.path.join(self.directory_wordlists, dictionary_for_attack), "-r", os.path.join(self.directory_rules, filename_no_ext) + ".out", "--potfile-disable"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
                                     recovered_line = self.extract_recovered_line(result.stdout)
                                     print("Recovered: ",recovered_line)
