@@ -117,6 +117,7 @@ class Test_rules:
         self.test_mdbscan = args.test_mdbscan
 
         self.dm_precomuted = args.distance_matrix_precomputed
+        self.iterate = 0 #number of various parameters specified
 
         if (self.test_dbscan == False and self.test_hac == False and self.test_ap == False and self.test_mdbscan == False):
             self.test_all = True
@@ -126,6 +127,15 @@ class Test_rules:
         self.parse_clustering_parameters()
         
 
+    def check_equal_length(self):
+        lengths = [
+            len(self.all_hac_parameters),
+            len(self.all_dbscan_parameters),
+            len(self.all_ap_parameters),
+            len(self.all_mdbscan_parameters)
+        ]
+        return len(set(lengths)) == 1
+            
             
     #Parse clusting parameters from input file
     def parse_clustering_parameters(self):
@@ -140,6 +150,20 @@ class Test_rules:
                     self.all_ap_parameters.append({'damping': parts[1], 'convergence_iter': parts[2]})
                 elif (parts[0] == "mdbscan"):
                     self.all_mdbscan_parameters.append({'eps1': parts[1], 'eps2' : parts[2], 'min_pts': parts[3]})
+        if (self.test_all):
+            if (self.check_equal_length() == False):
+                print("Equal number of parameters for each method need to be specified.")
+                exit(1)
+            self.iterate = len(self.all_ap_parameters)
+        elif (self.test_dbscan):
+            self.iterate = len(self.all_dbscan_parameters)
+        elif(self.test_ap):
+            self.iterate = len(self.all_ap_parameters)
+        elif(self.test_hac):
+            self.iterate = len(self.all_hac_parameters)
+        elif(self.test_mdbscan):
+            self.iterate = len(self.all_mdbscan_parameters)
+
 
 
     #Extracts line with information about number of recovered passwords from hashcat output
@@ -353,7 +377,7 @@ class Test_rules:
             parameter_index = 0
             
     
-            while (len(self.all_mdbscan_parameters) > parameter_index or len(self.all_ap_parameters) > parameter_index or len(self.all_dbscan_parameters) > parameter_index or len(self.all_hac_parameters) > parameter_index):                  
+            while (self.iterate > parameter_index):                  
                 # Create rule sets from given wordlists
                 for rule_file in os.listdir(self.directory_rules):
                     if rule_file.endswith(".txt"):
