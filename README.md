@@ -53,13 +53,21 @@ python3.9 RuleForge.py --wordlist <wordlist_file> --rulefile <rule_file> ( --hac
 
 
 ##### Optional Arguments:
+
 `--verbose`:Prints out information about rule generating process.
+
 `--rule_priority <rule_priority_file>`: Path to the priority rule file, for seleting rules to be used and prioritizing rule types.
+
 `--most_frequent <number_of_rules>`: Output .rule file will contain specified number of most frequent rules.
+
 `--max_password_length <password_length>`: Define the maximum length of a password (default: 20).
+
 `--chunk_size <chunk_size>`: Define the chunk size for parsing the input (default: 10000).
+
 `--stdin`: Enables clustering with external clustering method (MDBSCAN and DBSCAN).
+
 `--remove_outlier`: Wont generate rules from outlier clusters.
+
 `--distance_matrix_precomputed`: Allows to use precomputed distance matrix. 
 
 
@@ -112,10 +120,15 @@ python3.9 rule_tester.py --directory_rules <rules_dictionaries> --directory_word
   
 
 ##### Optional Arguments:
+
  `--test_dbscan`: Enable this flag to perform testing only with DBSCAN clustering.
+
  `--test_ap`: Enable this flag to perform testing only with Affinity Propagation clustering.
+
  `--test_hac`: Enable this flag to perform testing only with Hierarchical Agglomerative Clustering.
+
  `--test_mdbscan`:  Enable this flag to perform testing only with MDBSCAN clustering.
+ 
  `--test_frequent <number_of_rules>`: Test hit rate of the x most frequent rules. If not specified, tests will be performed with whole ruleset.
 
 #### clustering parameters .txt file argument format
