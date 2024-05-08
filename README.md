@@ -23,19 +23,14 @@ Before you begin, ensure you have met the following requirements:
 #### RuleForge Installation with pip3:
 
 ````
-
 pip3 install -r requirements.txt
-
 ````
 
 #### Compiling MDBSCAN
 
 ````
-
 cd MDBSCAN
-
 dotnet build -c Release
-
 ````
 
 
@@ -43,9 +38,10 @@ dotnet build -c Release
 
 ## Usage:
 ### RuleForge
-``
+Running base version of RuleForge (clustering with AP, HAC and DBSCAN):
+````
 python3.9 RuleForge.py --wordlist <wordlist_file> --rulefile <rule_file> ( --hac | --ap | --dbscan)
-``
+````
 ##### Required Arguments:
 
 `--wordlist <wordlist_file>`: Path to the wordlist file. This is the input wordlist for rule generation.
@@ -53,7 +49,6 @@ python3.9 RuleForge.py --wordlist <wordlist_file> --rulefile <rule_file> ( --hac
 
 
 ##### Optional Arguments:
-
 `--verbose`:Prints out information about rule generating process.
 
 `--rule_priority <rule_priority_file>`: Path to the priority rule file, for seleting rules to be used and prioritizing rule types.
@@ -88,10 +83,26 @@ python3.9 RuleForge.py --wordlist <wordlist_file> --rulefile <rule_file> ( --hac
 -  `--damping <value>`: Damping factor between 0.5 and 1. Float value.
 
 -  `--convergence_iter <value>`: Number of iterations to wait for convergence. Integer value between 1 and ~200.
+---
+### RuleForge - Expanded (M)DBSCAN
+Running RuleForge with external (M)DBSCAN clustering, provided by Bc. Viktor Rucky,
+For clustering with DBSCAN:
 
+````
 
+./MDBSCAN/MDBSCAN/bin/Release/net7.0/MDBSCAN <eps> <min_pts> <wordlist_file> | python3.9 RuleForge.py --rulefile <rule_file> --stdin
 
+````
 
+For clustering with MDBSCAN:
+
+````
+
+./MDBSCAN/MDBSCAN/bin/Release/net7.0/MDBSCAN <eps1> <eps2> <min_pts> <wordlist_file> | python3.9 RuleForge.py --rulefile <rule_file> --stdin
+
+````
+
+---
 ### rule_tester
 
 Testing hit rates of various rule generators (RuleForge, rule_generator/Dominik Drdak, rulegen/PACK).
@@ -109,7 +120,7 @@ python3.9 rule_tester.py --directory_rules <rules_dictionaries> --directory_word
 
 ##### Required Arguments:
 
- `--directory_rules <rules_dictionaries>`: Path to folder containing dictionaries for rule generation.
+  `--directory_rules <rules_dictionaries>`: Path to folder containing dictionaries for rule generation.
 
   `--directory_wordlists <wordlist_dictionaries>`: Path to folder with attack wordlists to be used for rule-based attacks.
 
@@ -120,15 +131,14 @@ python3.9 rule_tester.py --directory_rules <rules_dictionaries> --directory_word
   
 
 ##### Optional Arguments:
-
  `--test_dbscan`: Enable this flag to perform testing only with DBSCAN clustering.
-
+ 
  `--test_ap`: Enable this flag to perform testing only with Affinity Propagation clustering.
-
+ 
  `--test_hac`: Enable this flag to perform testing only with Hierarchical Agglomerative Clustering.
-
+ 
  `--test_mdbscan`:  Enable this flag to perform testing only with MDBSCAN clustering.
-
+ 
  `--test_frequent <number_of_rules>`: Test hit rate of the x most frequent rules. If not specified, tests will be performed with whole ruleset.
 
 #### clustering parameters .txt file argument format
@@ -175,7 +185,7 @@ oNX
 r
 sXY
 ````
-
+---
 ### distance_matrix_generator
 Allows to generate .npy distance matrices for rule generation
 
