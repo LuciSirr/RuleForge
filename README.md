@@ -86,7 +86,9 @@ python3.9 RuleForge.py --wordlist <wordlist_file> --rulefile <rule_file> ( --hac
 -  `--convergence_iter <value>`: Number of iterations to wait for convergence. Integer value between 1 and ~200.
 ---
 ### RuleForge - Expanded (M)DBSCAN
-Running RuleForge with external (M)DBSCAN clustering, provided by Bc. Viktor Rucky,
+Running RuleForge with external (M)DBSCAN clustering, provided by Bc. Viktor Rucky.
+
+
 For clustering with DBSCAN:
 
 ````

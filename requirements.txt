@@ -1,5 +1,6 @@
+click==8.1.7
+Cython==3.0.9
 editdistpy==0.1.3
-jellyfish==1.0.3
 joblib==1.3.2
 Levenshtein==0.25.0
 numpy==1.26.4
