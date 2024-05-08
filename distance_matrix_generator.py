@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#author: Lucia Šírová (xsirov01)
+#author: Lucia Sirova (xsirov01)
 import argparse
 import sys
 import os
