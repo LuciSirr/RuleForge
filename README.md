@@ -109,13 +109,13 @@ python3.9 rule_tester.py --directory_rules <rules_dictionaries> --directory_word
 
 ##### Required Arguments:
 
--  `--directory_rules <rules_dictionaries>`: Path to folder containing dictionaries for rule generation.
+ `--directory_rules <rules_dictionaries>`: Path to folder containing dictionaries for rule generation.
 
--  `--directory_wordlists <wordlist_dictionaries>`: Path to folder with attack wordlists to be used for rule-based attacks.
+  `--directory_wordlists <wordlist_dictionaries>`: Path to folder with attack wordlists to be used for rule-based attacks.
 
--  `--directory_passwords <passwords>`: Path to folder with passwords to be cracked.
+  `--directory_passwords <passwords>`: Path to folder with passwords to be cracked.
 
--  `--clustering_parameters <clustering_parameters>`: Path to file with parameters for clustering analysis.
+  `--clustering_parameters <clustering_parameters>`: Path to file with parameters for clustering analysis.
 
   
 
@@ -128,7 +128,7 @@ python3.9 rule_tester.py --directory_rules <rules_dictionaries> --directory_word
  `--test_hac`: Enable this flag to perform testing only with Hierarchical Agglomerative Clustering.
 
  `--test_mdbscan`:  Enable this flag to perform testing only with MDBSCAN clustering.
- 
+
  `--test_frequent <number_of_rules>`: Test hit rate of the x most frequent rules. If not specified, tests will be performed with whole ruleset.
 
 #### clustering parameters .txt file argument format
