@@ -1,0 +1,8 @@
+Method,Number of tests,Average hit rate,Average number of rules,distance_threshold
+hac,40,26.08%,378,3
+hac,40,26.75%,399.8,4
+hac,40,26.27%,400,5
+hac,40,25.29%,400,6
+hac,40,24.36%,400,7
+hac,40,26.53%,400,8
+hac,40,25.04%,400,9

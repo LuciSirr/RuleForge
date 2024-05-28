@@ -1,0 +1,5 @@
+Method,Number of tests,Average hit rate,Average number of rules,min_pts,eps
+dbscan,40,25.78%,400,1,4
+dbscan,40,26.56%,400,2,3
+dbscan,40,27.12%,400,3,2
+dbscan,40,26.93%,400,3,3

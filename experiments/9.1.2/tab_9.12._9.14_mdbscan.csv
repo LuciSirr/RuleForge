@@ -1,0 +1,25 @@
+Method,Rules,Dictionary,Target,Recovered Rate (%),Number of Rules,Rule generation time,Rule generating rate,Parameters
+rulegen_mdscan,hotmail.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,25.15%,99,34.71648716926575,0.3506715875683409,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,hotmail.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,20.15%,99,34.71648716926575,0.3506715875683409,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,hotmail.txt,probable-v2-top12000_M.txt,myspace.txt,6.01%,99,34.71648716926575,0.3506715875683409,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,hotmail.txt,probable-v2-top12000_M.txt,default-passwords.txt,23.82%,99,34.71648716926575,0.3506715875683409,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,hotmail.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,18.25%,99,34.71648716926575,0.3506715875683409,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,hotmail.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,16.68%,99,34.71648716926575,0.3506715875683409,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,hotmail.txt,10-million-password-list-top-10000_M.txt,myspace.txt,4.91%,99,34.71648716926575,0.3506715875683409,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,hotmail.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,17.35%,99,34.71648716926575,0.3506715875683409,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,27.35%,99,0.832972526550293,0.008413863904548414,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,23.88%,99,0.832972526550293,0.008413863904548414,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,myspace.txt,6.94%,99,0.832972526550293,0.008413863904548414,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,default-passwords.txt,28.31%,99,0.832972526550293,0.008413863904548414,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,20.56%,99,0.832972526550293,0.008413863904548414,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,20.34%,99,0.832972526550293,0.008413863904548414,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,myspace.txt,5.83%,99,0.832972526550293,0.008413863904548414,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,21.69%,99,0.832972526550293,0.008413863904548414,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,fortinet_m.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,24.17%,99,18.089970588684082,0.18272697564327356,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,fortinet_m.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,19.19%,99,18.089970588684082,0.18272697564327356,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,fortinet_m.txt,probable-v2-top12000_M.txt,myspace.txt,5.53%,99,18.089970588684082,0.18272697564327356,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,fortinet_m.txt,probable-v2-top12000_M.txt,default-passwords.txt,22.60%,99,18.089970588684082,0.18272697564327356,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,fortinet_m.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,17.46%,99,18.089970588684082,0.18272697564327356,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,fortinet_m.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,15.85%,99,18.089970588684082,0.18272697564327356,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,fortinet_m.txt,10-million-password-list-top-10000_M.txt,myspace.txt,4.52%,99,18.089970588684082,0.18272697564327356,--eps1: 2,--eps2: 0.25
+rulegen_mdscan,fortinet_m.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,16.36%,99,18.089970588684082,0.18272697564327356,--eps1: 2,--eps2: 0.25

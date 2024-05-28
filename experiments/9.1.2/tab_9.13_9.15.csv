@@ -1,0 +1,37 @@
+Method,Rules,Dictionary,Target,Recovered Rate (%),Number of Rules,Rule generation time,Rule generating rate,Parameters
+dbscan,hotmail.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,24.53%,99,4.574622869491577,0.046208311813046236,min points: 3,eps: 2
+hac,hotmail.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,27.00%,99,3.984286069869995,0.04024531383707066,distance_threshold: 4
+ap,hotmail.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,26.39%,99,205.69657707214355,2.0777432027489247,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,19.43%,99,4.574622869491577,0.046208311813046236,min points: 3,eps: 2
+hac,hotmail.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,20.51%,99,3.984286069869995,0.04024531383707066,distance_threshold: 4
+ap,hotmail.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,20.50%,99,205.69657707214355,2.0777432027489247,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,18.67%,99,4.574622869491577,0.046208311813046236,min points: 3,eps: 2
+hac,hotmail.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,20.59%,99,3.984286069869995,0.04024531383707066,distance_threshold: 4
+ap,hotmail.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,20.17%,99,205.69657707214355,2.0777432027489247,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,21.67%,99,4.574622869491577,0.046208311813046236,min points: 3,eps: 2
+hac,hotmail.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,22.27%,99,3.984286069869995,0.04024531383707066,distance_threshold: 4
+ap,hotmail.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,22.09%,99,205.69657707214355,2.0777432027489247,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,24.98%,99,0.7316997051239014,0.00739090611236264,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,23.08%,99,0.7494974136352539,0.007570680945810646,distance_threshold: 4
+ap,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,25.16%,99,2.7498936653137207,0.027776703690037582,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,19.77%,99,0.7316997051239014,0.00739090611236264,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,18.78%,99,0.7494974136352539,0.007570680945810646,distance_threshold: 4
+ap,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,19.82%,99,2.7498936653137207,0.027776703690037582,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,18.82%,99,0.7316997051239014,0.00739090611236264,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,17.12%,99,0.7494974136352539,0.007570680945810646,distance_threshold: 4
+ap,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,19.05%,99,2.7498936653137207,0.027776703690037582,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,19.94%,99,0.7316997051239014,0.00739090611236264,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,19.40%,99,0.7494974136352539,0.007570680945810646,distance_threshold: 4
+ap,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,19.50%,99,2.7498936653137207,0.027776703690037582,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,27.07%,100,2.4875686168670654,0.024875686168670655,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,27.37%,100,1.4539015293121338,0.014539015293121339,distance_threshold: 4
+ap,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,27.33%,99,67.04575562477112,0.6772298547956679,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,20.86%,100,2.4875686168670654,0.024875686168670655,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,20.81%,100,1.4539015293121338,0.014539015293121339,distance_threshold: 4
+ap,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,20.92%,99,67.04575562477112,0.6772298547956679,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,20.29%,100,2.4875686168670654,0.024875686168670655,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,20.51%,100,1.4539015293121338,0.014539015293121339,distance_threshold: 4
+ap,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,20.53%,99,67.04575562477112,0.6772298547956679,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,22.20%,100,2.4875686168670654,0.024875686168670655,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,22.39%,100,1.4539015293121338,0.014539015293121339,distance_threshold: 4
+ap,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,21.89%,99,67.04575562477112,0.6772298547956679,--convergence_iter: 15,--damping: 0.9

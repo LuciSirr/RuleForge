@@ -1,0 +1,73 @@
+Method,Rules,Dictionary,Target,Recovered Rate (%),Number of Rules,Rule generation time,Rule generating rate,Parameters,
+dbscan,hotmail.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,35.67%,99,2.4168832302093506,0.024412961921306573,min points: 3,eps: 2
+hac,hotmail.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,33.62%,99,2.5355594158172607,0.025611711,distance_threshold: 4,
+ap,hotmail.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,35.58%,99,216.26775431632996,2.184522771,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,28.63%,99,2.4168832302093506,0.024412961921306573,min points: 3,eps: 2
+hac,hotmail.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,27.10%,99,2.5355594158172607,0.025611711,distance_threshold: 4,
+ap,hotmail.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,28.22%,99,216.26775431632996,2.184522771,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,probable-v2-top12000_M.txt,myspace.txt,14.68%,99,2.4168832302093506,0.024412961921306573,min points: 3,eps: 2
+hac,hotmail.txt,probable-v2-top12000_M.txt,myspace.txt,12.88%,99,2.5355594158172607,0.025611711,distance_threshold: 4,
+ap,hotmail.txt,probable-v2-top12000_M.txt,myspace.txt,14.82%,99,216.26775431632996,2.184522771,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,probable-v2-top12000_M.txt,default-passwords.txt,31.51%,99,2.4168832302093506,0.024412961921306573,min points: 3,eps: 2
+hac,hotmail.txt,probable-v2-top12000_M.txt,default-passwords.txt,30.97%,99,2.5355594158172607,0.025611711,distance_threshold: 4,
+ap,hotmail.txt,probable-v2-top12000_M.txt,default-passwords.txt,29.83%,99,216.26775431632996,2.184522771,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,28.48%,99,2.4168832302093506,0.024412961921306573,min points: 3,eps: 2
+hac,hotmail.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,26.33%,99,2.5355594158172607,0.025611711,distance_threshold: 4,
+ap,hotmail.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,28.27%,99,216.26775431632996,2.184522771,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,25.40%,99,2.4168832302093506,0.024412961921306573,min points: 3,eps: 2
+hac,hotmail.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,23.48%,99,2.5355594158172607,0.025611711,distance_threshold: 4,
+ap,hotmail.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,24.80%,99,216.26775431632996,2.184522771,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,10-million-password-list-top-10000_M.txt,myspace.txt,12.48%,99,2.4168832302093506,0.024412961921306573,min points: 3,eps: 2
+hac,hotmail.txt,10-million-password-list-top-10000_M.txt,myspace.txt,10.93%,99,2.5355594158172607,0.025611711,distance_threshold: 4,
+ap,hotmail.txt,10-million-password-list-top-10000_M.txt,myspace.txt,12.62%,99,216.26775431632996,2.184522771,--convergence_iter: 15,--damping: 0.9
+dbscan,hotmail.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,24.73%,99,2.4168832302093506,0.024412961921306573,min points: 3,eps: 2
+hac,hotmail.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,24.05%,99,2.5355594158172607,0.025611711,distance_threshold: 4,
+ap,hotmail.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,23.74%,99,216.26775431632996,2.184522771,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,33.40%,99,0.6681897640228271,0.006749392,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,29.35%,54,0.6319303512573242,0.011702414,distance_threshold: 4,
+ap,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,33.21%,99,2.6901166439056396,0.027172895,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,25.92%,99,0.6681897640228271,0.006749392,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,23.44%,54,0.6319303512573242,0.011702414,distance_threshold: 4,
+ap,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,27.40%,99,2.6901166439056396,0.027172895,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,myspace.txt,13.68%,99,0.6681897640228271,0.006749392,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,myspace.txt,10.93%,54,0.6319303512573242,0.011702414,distance_threshold: 4,
+ap,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,myspace.txt,12.51%,99,2.6901166439056396,0.027172895,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,default-passwords.txt,26.71%,99,0.6681897640228271,0.006749392,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,default-passwords.txt,26.18%,54,0.6319303512573242,0.011702414,distance_threshold: 4,
+ap,darkweb2017-top1000_M.txt,probable-v2-top12000_M.txt,default-passwords.txt,28.77%,99,2.6901166439056396,0.027172895,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,26.25%,99,0.6681897640228271,0.006749392,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,22.08%,54,0.6319303512573242,0.011702414,distance_threshold: 4,
+ap,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,25.95%,99,2.6901166439056396,0.027172895,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,22.62%,99,0.6681897640228271,0.006749392,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,19.94%,54,0.6319303512573242,0.011702414,distance_threshold: 4,
+ap,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,24.03%,99,2.6901166439056396,0.027172895,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,myspace.txt,11.62%,99,0.6681897640228271,0.006749392,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,myspace.txt,9.18%,54,0.6319303512573242,0.011702414,distance_threshold: 4,
+ap,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,myspace.txt,10.57%,99,2.6901166439056396,0.027172895,--convergence_iter: 15,--damping: 0.9
+dbscan,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,20.78%,99,0.6681897640228271,0.006749392,min points: 3,eps: 2
+hac,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,20.78%,54,0.6319303512573242,0.011702414,distance_threshold: 4,
+ap,darkweb2017-top1000_M.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,22.68%,99,2.6901166439056396,0.027172895,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,34.26%,99,1.3284361362457275,0.013418546830764924,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,23.96%,99,1.3758277893066406,0.013897250397036773,distance_threshold: 4,
+ap,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,rockyou-75_M.txt,25.39%,99,65.37718939781189,0.6603756504829483,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,27.17%,99,1.3284361362457275,0.013418546830764924,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,22.14%,99,1.3758277893066406,0.013897250397036773,distance_threshold: 4,
+ap,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,xato-net-10-million-passwords-100000_M.txt,23.36%,99,65.37718939781189,0.6603756504829483,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,myspace.txt,14.56%,99,1.3284361362457275,0.013418546830764924,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,myspace.txt,5.64%,99,1.3758277893066406,0.013897250397036773,distance_threshold: 4,
+ap,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,myspace.txt,6.36%,99,65.37718939781189,0.6603756504829483,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,default-passwords.txt,28.84%,99,1.3284361362457275,0.013418546830764924,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,default-passwords.txt,31.66%,99,1.3758277893066406,0.013897250397036773,distance_threshold: 4,
+ap,fortinet-2021_passwords-5k_M.txt,probable-v2-top12000_M.txt,default-passwords.txt,30.82%,99,65.37718939781189,0.6603756504829483,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,27.04%,99,1.3284361362457275,0.013418546830764924,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,17.30%,99,1.3758277893066406,0.013897250397036773,distance_threshold: 4,
+ap,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,rockyou-75_M.txt,18.73%,99,65.37718939781189,0.6603756504829483,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,23.59%,99,1.3284361362457275,0.013418546830764924,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,18.62%,99,1.3758277893066406,0.013897250397036773,distance_threshold: 4,
+ap,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,xato-net-10-million-passwords-100000_M.txt,19.83%,99,65.37718939781189,0.6603756504829483,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,myspace.txt,12.42%,99,1.3284361362457275,0.013418546830764924,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,myspace.txt,4.65%,99,1.3758277893066406,0.013897250397036773,distance_threshold: 4,
+ap,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,myspace.txt,5.28%,99,65.37718939781189,0.6603756504829483,--convergence_iter: 15,--damping: 0.9
+dbscan,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,22.15%,99,1.3284361362457275,0.013418546830764924,min points: 3,eps: 2
+hac,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,25.34%,99,1.3758277893066406,0.013897250397036773,distance_threshold: 4,
+ap,fortinet-2021_passwords-5k_M.txt,10-million-password-list-top-10000_M.txt,default-passwords.txt,24.12%,99,65.37718939781189,0.6603756504829483,--convergence_iter: 15,--damping: 0.9

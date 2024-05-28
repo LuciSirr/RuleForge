@@ -1,0 +1,8 @@
+Method,Number of tests,Average hit rate,Average number of rules,eps1,eps2,min_points
+rulegen_mdbscan,40,26.76%,4017.6,2,0.15,3
+rulegen_mdbscan,40,26.96%,3905.9,2,0.25,3
+rulegen_mdbscan,40,26.00%,3949.27,2,0.35,3
+rulegen_mdbscan,40,26.08%,3992.5,2,0.45,3
+rulegen_mdbscan,40,26.10%,4025.36,2,0.55,3
+rulegen_mdbscan,40,26.09%,4049.1,2,0.65,3
+rulegen_mdbscan,40,26.05%,4081.62,2,0.75,3
